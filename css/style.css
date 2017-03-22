@@ -1,0 +1,12 @@
+header,
+footer {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: cursive;
+  border-style: double;
+  border-color: green;
+  border-width: 10px;
+  margin: auto;
+}
