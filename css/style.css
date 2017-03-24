@@ -1,12 +1,51 @@
-header,
-footer {
-  background-color: black;
-  color: white;
-  font-size: 40px;
+header {
+  background-color: white;
+  color:black;
+  font-size:35px;
   text-align: center;
-  font-family: cursive;
-  border-style: double;
-  border-color: green;
-  border-width: 10px;
+  font-family: monospace;
+  border-style: solid;
+  border-color: black;
+  max-height: 150px;
+  height: auto;
+  right: 0;
+  left: 0;
+  top:0;
+  padding:1rem;
+  position: fixed;
+
+}
+body {
+  border-left-style: solid;
+  border-right-style: solid;
+  margin-right: 0;
+  margin-left: 0;
+  bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: gray;
+
+}
+footer {
+  background-color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  border-style: solid;
   margin: auto;
+}
+div {
+  background-color: yellow;
+  display: inline-block;
+  padding: 1rem;
+  border-style: solid;
+  max-height: 100%;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+  overflow: scroll;
+
 }
